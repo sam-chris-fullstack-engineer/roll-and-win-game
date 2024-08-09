@@ -180,3 +180,69 @@ main {
   height: 8rem;
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
 }
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+  main {
+    width: 90%; 
+    height: auto; /
+    padding: 2rem 1rem; 
+  }
+
+  .player {
+    width: 100%; 
+    padding: 1.5rem; 
+  }
+
+  .score {
+    font-size: 4rem; 
+  }
+
+  .current-label {
+    font-size: 1.2rem;
+  }
+
+  .current-score {
+    font-size: 2rem; 
+  }
+
+  .buttons {
+    bottom: 1rem; 
+    padding: 0 1rem; 
+  }
+
+  .btn {
+    font-size: 1.4rem; 
+    padding: 0.8rem 1.5rem; 
+  }
+
+  .dice {
+    height: 6rem; 
+    top: 10rem; 
+  }
+}
+
+/* Additional media queries for very small screens */
+@media (max-width: 480px) {
+  .score {
+    font-size: 3rem; 
+  }
+
+  .current-label {
+    font-size: 1rem; 
+  }
+
+  .current-score {
+    font-size: 1.5rem; 
+  }
+
+  .btn {
+    font-size: 1.2rem; 
+    padding: 0.6rem 1.2rem; 
+  }
+
+  .dice {
+    height: 5rem; 
+    top: 8rem; 
+  }
+}
